@@ -1,1 +1,115 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+  <meta charset="utf-8">
+  <title>Bootstreep</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <style>
+    body {
+      width: 100vw;
+	    height: 100vh;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    .color {
+      background-color: #cca5f3;
+      border: 2px solid black;
+      border-radius: 5px;
+    }
+
+    .row2 div {
+      border: 2px solid black;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="big-wrapper">
+    <h2>Exercice 1</h2>
+    <div class="container color">
+      <div class="row justify-content-center">12 colonnes</div>
+      <div class="row justify-content-between row2">
+        <div class="col-2 offset-1 text-center">Coucou</div>
+        <div class="col-3 text-center">ça</div>
+        <div class="col-2 text-center">va ?</div>
+      </div>
+    </div>
+  </div>
+  <!--2ND exercice-->
+  <div class="big-wrapper">
+  	<h2>Exercice 2</h2>
+  	<div class="container">
+  		<div class="row">
+  			<div class="container col-4">
+  				<div class="row color">
+  					<div>Nouvel</div>
+  				</div>
+  			</div>
+  			<div class="container col-8 color">
+  				<div class="row justify-content-center font-weight-bold">Exercice</div>
+  				<div class="row justify-content-between row2">
+  					<div class="col-3 text-center">ces</div>
+  					<div class="col-6 text-center">blocs sont tous</div>
+  					<div class="col-3 text-center">dans</div>
+  				</div>
+  				<div class="row justify-content-between row2">
+  					<div class="col-4 text-center">la même</div>
+  					<div class="col-4 text-center">div où est</div>
+  					<div class="col-4 text-center">inscrit <span class="font-weight-bold">"Exercice"</span>.</div>
+  				</div>
+  				<div class="row justify-content-between row2">
+  					<div class="col-5 text-center">comment</div>
+  					<div class="col-2 text-center">est</div>
+  					<div class="col-5 text-center">ce possible ?</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  </div>
+  <div class="big-wrapper">
+	<h2>Exercice 3</h2>
+	<div class="container color">
+		<div class="row justify-content-center">12 colonnes</div>
+		<div class="row justify-content-around row2">
+			<div class="col-2 text-center">Bloc 1 de 2</div>
+			<div class="col-2 text-center order-1">Bloc 2 de 2</div>
+			<div class="col-2 text-center">Bloc 3 de 2</div>
+		</div>
+	</div>
+</div>
+<div class="big-wrapper">
+	<h2>Exercice 4</h2>
+	<div class="container">
+		<div class="row">
+			<div class="container col-6 color">
+				<div class="row justify-content-center">6 colonnes</div>
+				<div class="row">
+					<div class="col-4 text-center color">4 colonnes</div>
+					<div class="col-4 offset-4 text-center color">4 colonnes</div>
+				</div>
+			</div>
+			<div class="container col-6 color">
+				<div class="row justify-content-center">6 colonnes</div>
+				<div class="row">
+					<div class="col-4 text-center color">4 colonnes</div>
+					<div class="col-8 text-center color">8 colonnes</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+
+</html>
